@@ -1,92 +1,137 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tomáš Mikula</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fff;
-      color: #333;
-      line-height: 1.6;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>umimplavat.cz apps</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
 
-    header {
-      background: linear-gradient(to right, #2980b9, #6dd5fa);
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
 
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
+        header {
+            background: linear-gradient(to right, #6dd5fa, #00f0ff, #6dd5fa);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
 
-    header p {
-      margin: 0.5rem 0 0;
-      font-size: 1rem;
-      opacity: 0.9;
-    }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
 
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1rem;
+            opacity: 0.9;
+        }
 
-    .links p {
-      margin: 0.3rem 0;
-    }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 0.5rem;
+            flex: 1;
+            text-align: center;
+        }
 
-    .links b {
-      width: 100px;
-      display: inline-block;
-    }
+        section {
+            margin-bottom: 2rem;
+        }
 
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
+        .links {
+            text-align: left;
+            display: inline-block;
+        }
 
-    a:hover {
-      text-decoration: underline;
-    }
+        .links p {
+            margin: 0.6rem 0;
+            font-size: 1rem;
+        }
 
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      color: #aaa;
-      font-size: 0.9rem;
-      border-top: 1px solid #eee;
-      margin-top: 2rem;
-    }
-  </style>
+        .links b {
+            width: 135px;
+            display: inline-block;
+        }
+
+        .links a {
+            margin-left: 8px;
+        }
+
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 1rem;
+            color: #aaa;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+    </style>
 </head>
+
 <body>
-  <header>
-    <h1>Tomáš Mikula</h1>
-    <p>UX/UI designer @ INGAME STUDIOS</p>
-  </header>
+    <header>
+        <h1>umimplavat.cz apps</h1>
+    </header>
 
-  <main>
-    <p>
-      I strive to create the best possible experience for the players, which initiates within the core designs
-      of the game and goes beyond the UI design.
-    </p>
+    <main>
+        <section>
+            <h2>Swim Time Calculator</h2>
+            <div class="links">
+              <p>Source code repository: <a href="https://github.com/Nert53/swim-time-calculator" target="_blank">GitHub</a></p>
+              <p>iOS download: <a href="https://apps.apple.com/us/app/swim-time-calculator/id6670363039" target="_blank">App Store</a></p>
+              <p>Android download: <a href="https://play.google.com/store/apps/details?id=cz.umimplavat.swim_pace_calculator&pcampaignid=web_share" target="_blank">Play Store</a></p>
+                <p>Privacy policy: <a href="swim-time.html" target="_blank">Document</a></p>
+            </div>
+        </section>
 
-    <div class="links">
-      <p><b>Portfolio:</b> <a href="https://www.behance.net" target="_blank">Behance.net</a></p>
-      <p><b>Publications:</b> <a href="https://scholar.google.com" target="_blank">Google Scholar</a></p>
-      <p><b>Github:</b> <a href="https://github.com" target="_blank">Github.com</a></p>
-      <p><b>Email:</b> <a href="mailto:mail@tomasmikula.cz">mail@tomasmikula.cz</a></p>
-    </div>
-  </main>
+        <section>
+            <h2>Aqua Points Calculator</h2>
+            <div class="links">
+                <p>Source code repository: <a href="https://github.com/Nert53/aqua-points-calculator" target="_blank">GitHub</a></p>
+                <p>iOS download: <a href="https://apps.apple.com/us/app/aqua-points-calculator/id6736572544" target="_blank">App Store</a></p>
+                <p>Android download: <a href="https://play.google.com/store/apps/details?id=cz.umimplavat.aqua_points_calculator&pcampaignid=web_share" target="_blank">Play Store</a></p>
+                <p>Privacy policy: <a href="aqua-points.html" target="_blank">Document</a></p>
+            </div>
+        </section>
 
-  <footer>
-    © Tomáš Mikula
-  </footer>
+        <section>
+            <h2>Links</h2>
+            <div class="links">
+                <p><b>Webpage:</b> <a href="https://umimplavat.cz/" target="_blank">umimplavat.cz</a></p>
+                <p><b>Facebook:</b> <a href="https://www.facebook.com/umimplavat" target="_blank">facebook.com/umimplavat</a></p>
+                <p><b>Instagram:</b> <a href="https://www.instagram.com/umimplavat.cz/" target="_blank">instagram.com/umimplavat.cz</a></p>
+                <p><b>Second project:</b> <a href="https://www.umimbehat.cz/" target="_blank">umimbehat.cz</a></p>
+                <p><b>Email:</b> <a href="mailto:umimplavat@gmail.com">umimplavat@gmail.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>© umimplavat.cz<br />Vojtěch Netrh</div>
+    </footer>
 </body>
+
 </html>
